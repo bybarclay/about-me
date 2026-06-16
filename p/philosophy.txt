@@ -14,3 +14,11 @@
         </section>
 
 
+
+
+			<!-- Added Join the Community button -->
+            <div class="community-button-container">
+                <a href="/p/project-freedom" class="button community-button">
+                    <i class="uil uil-navigator button-icon"></i>Join the Movement
+                </a>
+            </div>
