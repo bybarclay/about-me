@@ -1,0 +1,16 @@
+
+
+        <!-- Philosophy Section -->
+        <section class="philosophy-section">
+            <div class="philosophy-container">
+                <h2 class="section-title" data-heading="My Philosophy">A guiding principle for my work</h2>
+                <p class="philosophy-subtitle">This belief shapes my approach to every project and collaboration</p>
+                <div class="philosophy-quote">
+                    <span class="quote-decoration quote-left">"</span>
+                    Truth gave me discipline. Discipline gave me structure. Structure gave me freedom.
+                    <span class="quote-decoration quote-right">"</span>
+                </div>
+            </div>
+        </section>
+
+
