@@ -224,6 +224,12 @@ html, body {
             background-color: var(--scroll-thumb-color);
             border-radius: .5rem;
         }
+        
+        
+        
+        
+        
+        
 
         /* Sidebar */
         .sidebar {
@@ -253,6 +259,49 @@ html, body {
             object-fit: cover;
             border-radius: 50%;
         }
+        
+  .nav-logo:hover {
+
+    transform: scale(1.12);
+
+}
+
+
+.nav-logo:hover .nav-logo-image {
+
+    transform: scale(1.1);
+
+    box-shadow:
+
+        0 0 10px #ff5011,
+
+        0 0 20px #ff5011,
+
+        0 0 40px #ff5011,
+
+        0 0 60px #ff5011,
+
+        0 0 80px rgba(255, 80, 17, 0.8);
+
+}
+
+
+        
+ @keyframes logoFloat {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+.nav-logo {
+    animation: logoFloat 3s ease-in-out infinite;
+}       
+        
+        
 
         .nav-logo-text {
             font-size: 1.125rem;
@@ -346,6 +395,14 @@ html, body {
         .social-share {
             font-size: 1.5rem;
         }
+        
+        
+        
+        
+        
+        
+        
+        
 
         /* Main - Home */
         .main {
@@ -437,6 +494,7 @@ html, body {
         }
 
         .home-subtitle {
+        max-width: 400px;
             font-size: var(--h3-font-size);
             font-weight: var(--font-medium);
             margin-bottom: var(--mb075);
@@ -474,6 +532,43 @@ html, body {
             color: var(--skin-color);
             margin-right: var(--mb075);
         }
+
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 1.2rem;
+
+    flex-wrap: wrap;
+
+    margin-top: 1.5rem;
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 568px) {
+
+    .hero-buttons {
+
+        flex-direction: column;        
+
+        width: 100%;
+
+    }
+
+    .hero-buttons .button {
+
+        justify-content: center;
+
+        text-align: center;
+
+    }
+
+}
+
+
 
 
 
@@ -531,6 +626,42 @@ html, body {
         .about-subtitle {
             font-size: var(--small-font-size);
         }
+
+
+
+
+
+
+
+
+.story-container {
+
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            padding: 0 20px;
+
+
+}
+
+.story-description {
+padding-bottom: 1rem;
+
+}
+
+
+
+
+
+ /* Responsive Design */
+        @media (max-width: 768px) {
+            .story-section {
+                padding: 60px 0;
+            }
+
+
+
 
 
 
@@ -730,6 +861,8 @@ html, body {
 
 
 
+
+
         
         /* Main - Skills */
         .skills-container {
@@ -813,6 +946,20 @@ html, body {
         .skills-active[data-content] {
             display: block;
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         .video-container {
             position: relative;
@@ -937,6 +1084,16 @@ html, body {
         font-size: 2rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
         /* Main - Work */
         .work-container {
@@ -1098,6 +1255,18 @@ html, body {
             text-transform: lowercase;
             color: var(--skin-color);
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         /* Main - Services */
         .services-container {
@@ -1151,15 +1320,6 @@ html, body {
         .services-button:hover .services-button-icon {
             transform: translateX(.25rem);
         }
-
-
-
-
-
-
-
-
-
 
         .services-modal {
             position: fixed;
@@ -1235,6 +1395,16 @@ html, body {
         .services-modal-info {
             font-size: var(--small-font-size);
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         /* Main - Testimonials */
         .testimonials-container.swiper {
@@ -1921,7 +2091,7 @@ button.faq-header {
 
         @media screen and (max-width: 768px) {
             .about-img {
-                width: 250px;
+                width: 330px;
             }
 
             .qualification-container {
@@ -2010,7 +2180,7 @@ button.faq-header {
 
             .home-img {
                 display: block;
-                width: 250px;
+                width: 330px;
                 justify-self: center;
             }
 
@@ -2077,7 +2247,7 @@ button.faq-header {
             }
 
             .home-img {
-                width: 200px;
+                width: 330px;
             }
 
             .home-title {
@@ -2308,8 +2478,8 @@ button.faq-header {
     <aside class="sidebar" id="sidebar">
         <nav class="nav">
             <div class="nav-logo">
-                <a href="#">
-                    <img src="https://bucket.mlcdn.com/a/3336/3336910/images/494966047320c2c5be07bd50754a7183ffcda611.png" alt="Your Company Logo" class="nav-logo-image">
+                <a href="/portal">
+                    <img src="https://bucket.mlcdn.com/a/3336/3336910/images/cb4b37522607da45b7f91a8253f835eaf09b1f9e.png" alt="Your Company Logo" class="nav-logo-image">
                 </a>
             </div>
 
@@ -2363,13 +2533,24 @@ button.faq-header {
                     <span class="home-social-follow">Follow Me</span>
 
                     <div class="home-social-links">
+                    
+                    
+                    
+<a href="https://github.com/Bebell-Digital-Solutions/" target="_blank" class="home-social-link">
 
-<a href="https://www.linkedin.com/" target="_blank" class="home-social-link">                            
+    <i class="uil uil-github"></i>
+
+</a>                        
+                           
+                    
+                    
+
+<a href="https://www.linkedin.com/in/bebelldigitalsolutions" target="_blank" class="home-social-link">                            
 <i class="uil uil-linkedin"></i>                        
 </a>
 
 
-                       <a href="https://www.facebook.com/" target="_blank" class="home-social-link">
+                       <a href="https://www.facebook.com/bebelldigitalsolutions" target="_blank" class="home-social-link">
                             <i class="uil uil-facebook-f"></i>
                         </a>
 
@@ -2383,6 +2564,10 @@ button.faq-header {
    <a href="https://www.youtube.com/@bebelldigitalsolutions?sub_confirmation=1" target="_blank" class="home-social-link">
                             <i class="uil uil-youtube"></i>
                         </a>
+                        
+                        
+                 
+                        
 
                     </div>
                 </div>
@@ -2400,15 +2585,31 @@ button.faq-header {
                 <img src="https://bucket.mlcdn.com/a/3336/3336910/images/fde956c54822c5720db57b1d7562862e80f00c26.png" alt="" class="home-img">
 
                 <div class="home-data">
-                    <h1 class="home-title">Hi, I'm Barclay! <span class="wave-emoji">👋</span></h1>
-                    <h3 class="home-subtitle">I Build Digital Businesses That Generate Leads, Sales, and Growth</h3>
-                    <p class="home-description">Founder & CEO at <strong>Bebell Digital Solutions</strong>. For more than 15 years, I’ve helped entrepreneurs and organizations transform ideas into profitable digital assets through strategy, automation, websites, AI, and business systems.</p>
-                    <a href="#about" class="button">
-                        <i class="uil uil-user button-icon"></i>
-                        More About me!
-                    </a>
-                </div>
+    <h1 class="home-title">Hi, I'm Barclay! <span class="wave-emoji">👋</span></h1>
 
+    <h3 class="home-subtitle">
+        I Build Digital Businesses That Generate Leads, Sales, and Growth
+    </h3>
+
+    <p class="home-description">
+        Founder & CEO at <strong>Bebell Digital Solutions</strong>.
+        For more than 15 years, I've helped entrepreneurs and organizations
+        transform ideas into profitable digital assets through strategy,
+        automation, websites, AI, and business systems.
+    </p>
+
+    <div class="hero-buttons">
+        <a href="/booking-page" class="button">
+            <i class="uil uil-user button-icon"></i>
+            Book a Strategy Call
+        </a>
+
+        <a href="#portfolio" class="button button-secondary">
+            <i class="uil uil-briefcase-alt button-icon"></i>
+            View Our Case Studies
+        </a>
+    </div>
+</div>
 
 
 
@@ -2466,7 +2667,7 @@ button.faq-header {
                 <img src="https://bucket.mlcdn.com/a/3336/3336910/images/6206d986a4e29406fe76181e4669bdb8746e5380.jpeg" alt="" class="about-img">
                 <div class="about-data">
                     <h3 class="about-heading">Hi, I'm Barclay, "<span style="color: var(--skin-color)">Ernesto</span>"</h3>
-                    <p class="about-description">I’m an entrepreneur, architectural designer, and founder of <strong>Bebell Digital Solutions</strong>. Over the last 15+ years, my team and I have built businesses, launched digital products, managed complex projects, and helped brands establish their online presence through websites, automation, e-commerce, AI integration, and digital strategy. My work is driven by a simple belief:
+                    <p class="about-description">I’m an entrepreneur, architectural designer, and founder of <strong>Bebell Digital Solutions</strong>. Over the last 15+ years, my team and I have built businesses, launched digital products, managed complex projects, and helped brands establish their online presence through websites, automation, e-commerce, AI integration, and digital strategy.<br>My work is driven by a simple belief:
 Businesses grow faster when technology, marketing, and operations work together as one system.<br>
                         <strong>
                             <span style="color: var(--skin-color); font-size: 20px;">
@@ -2496,6 +2697,73 @@ Businesses grow faster when technology, marketing, and operations work together 
                 </div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+
+
+<section class="story section" id="story">
+    <h2 class="section-title" data-heading="My Journey">Know My Story</h2>
+
+    <div class="story-container container">
+        <div class="story-content">
+            <p class="story-description">
+                I was born in Haiti and discovered my passion for technology at an early age after earning my first computer through academic achievement. That experience taught me a lesson that would shape the rest of my life: discipline and preparation create opportunity.
+            </p>
+
+            <p class="story-description">
+                Over the years, I explored entrepreneurship, architecture, publishing, design, construction, and digital business. I launched projects, built teams, won clients, experienced setbacks, accumulated debt, and learned firsthand how difficult it is to build something meaningful from the ground up.
+            </p>
+
+            <p class="story-description">
+                After facing major business challenges, I spent years studying sales, marketing, technology, automation, psychology, and business systems. What began as a search for answers eventually became the foundation of a new vision.
+            </p>
+
+            <p class="story-description">
+                In 2016, I founded <strong>Bebell Digital Solutions</strong> with a simple objective: help entrepreneurs and organizations use technology to create stability, efficiency, and growth. During the global shift to digital, our team helped businesses establish their online presence, automate operations, and adapt to a rapidly changing marketplace.
+            </p>
+
+            <p class="story-description">
+                Today, my mission remains the same: helping business owners transform ideas into valuable digital assets and build systems that continue creating opportunities long after they are launched.
+            </p>
+
+            <div class="story-quote">
+            
+            
+            
+            
+                <i class="uil uil-lightbulb-alt"></i>
+                
+                <br>
+                <span>
+                    "I believe businesses grow faster when technology, marketing, and operations work together as one system."
+                </span>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2665,27 +2933,9 @@ Businesses grow faster when technology, marketing, and operations work together 
 
 
 
-
-
-
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
  <section class="work section" id="work">
 
-            <h2 class="section-title" data-heading="Our Valued Clients">Brands we are proud to work with</h2>
+            <h2 class="section-title" data-heading="Case Studies">Brands we are proud to work with</h2>
 
 
 
@@ -2710,7 +2960,6 @@ Businesses grow faster when technology, marketing, and operations work together 
 
 
 
-                <!-- Digital Offices -->
 
 
 
