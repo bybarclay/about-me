@@ -2726,7 +2726,7 @@ Businesses grow faster when technology, marketing, and operations work together 
 <div class="story-container container" style="margin: 0 auto; text-align: center;">
         <div class="story-content">
             <p class="story-description">
-                I was born in Haiti and discovered my passion for technology at an early age after earning my first computer through academic achievement. That experience taught me a lesson that would shape the rest of my life: discipline and preparation create opportunity.
+                I was born in the beautiful country Haiti and discovered my passion for technology at an early age after earning my first computer through academic achievement. That experience taught me a lesson that would shape the rest of my life: discipline and preparation create opportunity.
             </p>
 
             <p class="story-description">
@@ -2750,10 +2750,10 @@ Businesses grow faster when technology, marketing, and operations work together 
             
             
             
-                <i class="uil uil-lightbulb-alt"></i>
+                <i class="uil uil-lightbulb-alt" style="color: var(--skin-color); font-size: 2rem;"></i>
                 
                 <br>
-                <span>
+                <span style="font-size: 26px;">
                     "I believe businesses grow faster when technology, marketing, and operations work together as one system."
                 </span>
                 
