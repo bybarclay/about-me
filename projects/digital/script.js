@@ -1,4 +1,3 @@
-
 // Back to Top Functionality
 window.onscroll = function() {
     scrollFunction();
